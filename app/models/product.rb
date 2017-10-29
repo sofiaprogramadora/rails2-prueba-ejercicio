@@ -1,4 +1,4 @@
 class Product < ApplicationRecord
   belongs_to :category
-  validate :price, :presence => true
+  validates :price, :presence => true
 end
